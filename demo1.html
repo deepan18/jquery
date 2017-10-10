@@ -1,0 +1,29 @@
+<html>
+
+   <head>
+      <title>The jQuery Example</title>
+      <script type = "text/javascript" src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
+     <!--  <script type = "text/javascript">
+         $(document).ready(function(){
+            $("div").click(function(){ alert("test");});
+            
+         });
+      </script>		
+      --> 
+
+       <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+             $("p").find("span").addClass("selected");
+         });
+      </script>
+   </head>
+   
+   <body>
+     <div>
+          <p>This is 1st paragraph and <span>THIS IS RED</span></p>
+      <p>This is 2nd paragraph and <span>THIS IS ALSO RED</span></p>
+      </div>
+   </body>
+   
+</html>
